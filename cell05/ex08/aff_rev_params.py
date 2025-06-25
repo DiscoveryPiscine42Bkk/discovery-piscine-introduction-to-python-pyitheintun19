@@ -5,4 +5,5 @@ param = sys.argv[1:]
 if not param:
     print("none")
 else:
-    print(sys.argv[1].lower())
+    for arg in reversed(param):
+        print(arg)

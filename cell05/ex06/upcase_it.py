@@ -1,8 +1,8 @@
 import sys
 
-param=len(sys.argv) - 1
+param = sys.argv[1:]  
 
-if param == 0:
+if not param:
     print("none")
 else:
-    print(sys.argv[1].upper())  
+    print(sys.argv[1].upper())
