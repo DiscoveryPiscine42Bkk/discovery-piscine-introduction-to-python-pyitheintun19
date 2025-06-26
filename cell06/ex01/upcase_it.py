@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def upcase_it(inp):
     return inp.upper()
 
